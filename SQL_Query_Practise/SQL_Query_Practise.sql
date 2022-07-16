@@ -211,3 +211,4 @@ CAST(SUM(Salary) OVER(PARTITION BY DepartmentName ORDER BY EmployeeId) AS FLOAT)
 FROM CumulativeSum
 
 ------
+------
